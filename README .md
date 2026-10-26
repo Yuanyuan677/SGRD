@@ -52,20 +52,6 @@ Training and evaluation are both implemented in `main.py`. A separate model is t
 python main.py
 ```
 
-By default this trains and evaluates SGRD on all 15 MVTec AD categories. The default setting is
-input size 256x256, batch size 16, 200 epochs, AdamW (learning rate and weight decay 1e-4), seed 42.
-The paper reports MVTec AD results averaged over seeds 42, 222 and 1234 (`--seed`).
-
-Other datasets or categories:
-
-```bash
-python main.py --dataset visa --data_root /path/to/visa
-python main.py --dataset mpdd --data_root /path/to/mpdd
-python main.py --dataset btad --data_root /path/to/btad
-python main.py --class carpet wood --seed 222
-```
-
-Ablation switches: `--no_fasb` (RD + FSRA), `--no_fsra` (RD + FASB), or both (RD baseline).
 
 ## Acknowledgement
 
