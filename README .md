@@ -8,7 +8,7 @@ the **foundation-aware semantic bottleneck (FASB)** and the **foundation-semanti
 
 - Linux, Python 3.9
 - PyTorch 2.0.0 (CUDA 11.8), torchvision 0.15.1
-- A single NVIDIA RTX 4090 GPU was used for all experiments
+
 
 ```bash
 conda create -n sgrd python=3.9
@@ -44,13 +44,7 @@ visa
 - Teacher: ImageNet-pretrained WideResNet50 (downloaded automatically by torchvision).
 - Foundation model: official DINOv2 ViT-B/14 (downloaded automatically through `torch.hub` from https://github.com/facebookresearch/dinov2 and kept frozen).
 
-## 4. Train and Test
 
-Training and evaluation are both implemented in `main.py`. A separate model is trained for each category.
-
-```bash
-python main.py
-```
 
 
 ## Acknowledgement
