@@ -1,6 +1,6 @@
 # SGRD: Semantically Grounded Reverse Distillation for Unsupervised Anomaly Detection
 
-This repository accompanies the paper **Semantically Grounded Reverse Distillation (SGRD)**.
+This repository accompanies the paper **Semantically Grounded Reverse Distillation for Unsupervised Anomaly Detection (SGRD)**.
 SGRD integrates a frozen vision foundation model (DINOv2) as a fixed semantic reference into Reverse Distillation through two modules:
 the **foundation-aware semantic bottleneck (FASB)** and the **foundation-semantic representation anchoring (FSRA)**.
 
