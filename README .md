@@ -4,7 +4,6 @@ This repository accompanies the paper **Semantically Grounded Reverse Distillati
 SGRD integrates a frozen vision foundation model (DINOv2) as a fixed semantic reference into Reverse Distillation through two modules:
 the **foundation-aware semantic bottleneck (FASB)** and the **foundation-semantic representation anchoring (FSRA)**.
 
-> **Code release:** The complete source code (FASB, FSRA, DINOv2 feature extraction, and the training and evaluation scripts) will be released in this repository upon acceptance of the paper.
 
 ## 1. Environment
 
